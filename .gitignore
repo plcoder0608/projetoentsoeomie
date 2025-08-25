@@ -64,4 +64,5 @@ dadosomie/
 *.backup
 
 # Documentation files
-*.pdf 
+*.pdf
+README.md 
