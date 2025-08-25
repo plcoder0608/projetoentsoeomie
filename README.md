@@ -104,7 +104,7 @@ python utils/compare_entsoe_omie.py
 ### Relatórios de Comparação
 - `comparison_reports/comparison_report_[timestamp].csv`
 
-## 🔍 Análise dos Resultados
+## Análise dos Resultados
 
 O projeto gera relatórios com:
 - **Preços alinhados** por timestamp UTC
@@ -120,7 +120,7 @@ O projeto gera relatórios com:
 - **Período**: Configurável via `config.env`
 
 
-## 📄 Licença
+## Licença
 
 Este projeto é de uso educacional e de pesquisa.
 
