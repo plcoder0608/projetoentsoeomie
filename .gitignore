@@ -1,4 +1,4 @@
-# Environment variables
+# Environment variables (SENSITIVE DATA)
 .env
 config.env
 
@@ -28,6 +28,7 @@ wheels/
 venv/
 env/
 ENV/
+entsoe-env/
 
 # IDE
 .vscode/
@@ -47,6 +48,17 @@ Thumbs.db
 *.xls
 *.ods
 
-# Data files
-*.csv
-*.xml 
+# Raw OMIE data files (large and not needed in repo)
+dadosomie/
+*.txt
+
+# Temporary files
+*.tmp
+*.temp
+
+# Jupyter notebooks
+*.ipynb_checkpoints/
+
+# Backup files
+*.bak
+*.backup 
