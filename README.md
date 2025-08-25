@@ -1,8 +1,8 @@
-# 🔌 ENTSO-E e OMIE Data Comparison Project
+# ENTSO-E e OMIE Data Comparison Project
 
 Projeto para buscar, processar e comparar dados de preços de eletricidade da ENTSO-E (European Network of Transmission System Operators) e OMIE (Operador del Mercado Ibérico de Energía).
 
-## 📋 Descrição
+## Descrição
 
 Este projeto permite:
 - **Buscar dados** da ENTSO-E via API oficial
@@ -11,24 +11,24 @@ Este projeto permite:
 - **Comparar preços** entre as duas fontes
 - **Gerar relatórios** de comparação
 
-## 🚀 Funcionalidades
+##Funcionalidades
 
 ### 📊 Busca de Dados ENTSO-E
 - Preços day-ahead para Portugal e Espanha
 - Dados de geração por tipo de fonte
 - Período configurável (semana de 10/08/2025 a 16/08/2025)
 
-### 🔄 Processamento OMIE
+###Processamento OMIE
 - Parse de arquivos .TXT do OMIE
 - Conversão automática de timezone (CEST → UTC)
 - Extração de preços para PT e ES
 
-### 📈 Comparação de Dados
+### Comparação de Dados
 - Alinhamento temporal por UTC
 - Cálculo de diferenças e correlações
 - Relatórios detalhados em CSV
 
-## 🛠️ Tecnologias
+## Tecnologias
 
 - **Python 3.x**
 - **pandas** - Manipulação de dados
@@ -36,7 +36,7 @@ Este projeto permite:
 - **pytz** - Tratamento de timezones
 - **python-dotenv** - Configuração de variáveis
 
-## 📁 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 entso-e/
@@ -53,7 +53,7 @@ entso-e/
 └── README.md                  # Este arquivo
 ```
 
-## ⚙️ Configuração
+## Configuração
 
 ### 1. Instalar Dependências
 ```bash
@@ -73,7 +73,7 @@ END_DATE=2025-08-16
 - Registre-se e solicite uma API key
 - Adicione a chave no `config.env`
 
-## 🎯 Como Usar
+## Como Usar
 
 ### 1. Buscar Dados ENTSO-E
 ```bash
@@ -90,7 +90,7 @@ python utils/process_omie_data.py
 python utils/compare_entsoe_omie.py
 ```
 
-## 📊 Saídas
+## Saídas
 
 ### Dados ENTSO-E
 - `entsoe_data/ENTSOE_Precos_PT_Semana_2025-08-10_a_2025-08-16.csv`
@@ -112,16 +112,13 @@ O projeto gera relatórios com:
 - **Correlações** entre as fontes
 - **Estatísticas** descritivas
 
-## 📝 Notas Importantes
+## Notas Importantes
 
 - **Timezone**: Todos os dados são convertidos para UTC
 - **MIBEL**: Portugal e Espanha compartilham mercado integrado
 - **Formato**: CSV para compatibilidade com LibreOffice
 - **Período**: Configurável via `config.env`
 
-## 👨‍💻 Autor
-
-**plcoder0608** - Pedro Lucas Gomes
 
 ## 📄 Licença
 
