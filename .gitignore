@@ -61,4 +61,7 @@ dadosomie/
 
 # Backup files
 *.bak
-*.backup 
+*.backup
+
+# Documentation files
+*.pdf 
