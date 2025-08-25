@@ -13,7 +13,7 @@ Este projeto permite:
 
 ##Funcionalidades
 
-### 📊 Busca de Dados ENTSO-E
+### Busca de Dados ENTSO-E
 - Preços day-ahead para Portugal e Espanha
 - Dados de geração por tipo de fonte
 - Período configurável (semana de 10/08/2025 a 16/08/2025)
